@@ -20,7 +20,7 @@ int main() {
     for (int q = 0; q < M; q++) {
         int S, E;
         scanf("%d %d", &S, &E);               // 구간 시작/끝 입력
-        printf("%d\n", psum[E] - psum[S - 1]); // 구간 합 출력
+        printf("%d\n", psum[E] - psum[S - 1]); // 구간 합 출
     }
 
     free(arr);

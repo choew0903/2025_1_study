@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    printf("%d\n", max_sum); // 결과 출력
+    printf("%d\n", max_sum); // 결과 출
 
     free(arr);
     return 0;

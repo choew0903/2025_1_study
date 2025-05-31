@@ -14,7 +14,7 @@ int main() {
         }
     }
 
-    // 2D 누적합 계산
+    // 2D 누적합 계
     for (int i = 1; i <= N; i++) {
         for (int j = 1; j <= N; j++) {
             psum[i][j] = psum[i - 1][j]
